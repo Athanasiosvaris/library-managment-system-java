@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="loginButton_User" layoutX="14.0" layoutY="230.0" mnemonicParsing="false" onAction="#loginUser" text="login" />
+      <TextField fx:id="User_Username" layoutX="14.0" layoutY="109.0" />
+      <Text layoutX="14.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="63.291015625" />
+      <Text layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the library " textAlignment="CENTER" wrappingWidth="858.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log in as user" wrappingWidth="96.291015625">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="User_Password" layoutX="15.0" layoutY="188.0" />
+      <Text layoutX="14.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="63.291015625" />
+      <Text layoutX="629.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log in as admin" wrappingWidth="106.291015625">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="629.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="63.291015625" />
+      <TextField fx:id="Admin_Username" layoutX="629.0" layoutY="109.0" />
+      <Text layoutX="629.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="63.291015625" />
+      <TextField fx:id="Admin_Password" layoutX="629.0" layoutY="188.0" />
+      <Button fx:id="loginButton_Admin" layoutX="629.0" layoutY="230.0" mnemonicParsing="false" onAction="#loginAdmin" text="login" />
+      <Text layoutX="338.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 highest rated books :" textAlignment="CENTER" wrappingWidth="183.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Hyperlink layoutX="14.0" layoutY="270.0" onAction="#createNewUser" text="Create a new user" />
+      <TextArea fx:id="topBooks" layoutX="291.0" layoutY="98.0" prefHeight="272.0" prefWidth="276.0" />
+      <Button fx:id="Toop_books" layoutX="392.0" layoutY="386.0" mnemonicParsing="false" onAction="#topfiveBooks" prefHeight="37.0" prefWidth="76.0" text="Best books" />
+   </children>
+</AnchorPane>
