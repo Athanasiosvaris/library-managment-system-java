@@ -3,14 +3,14 @@ A Library Management System developed in Java that encapsulates the core princip
 
 # Goal
 The goals of this project was :\
--To design,implement,test and deliver a fully working desktop application based on specific given requirements.\
--Receive a good grade haha
+-To design, implement, test, and deliver a fully functional desktop application based on the provided requirements.\
+-Receive a high grade and have fun along the way. :smiley:
 
 # Technical requirements 
 ## Actors:
-Firsly I created the nessecary actors of the application. They were:\
--Administrator\
--User
+The first step in the system design was to identify the necessary actors for the application. These actors represent the primary users who interact with the system:
+- Administrator
+- User
 ## Use cases:
 After determining the actors, the second step in use case analysis is to determine the tasks that each actor will need to do with the system. Each task is called a use case because it represents one particular way the system will be used.
    
@@ -27,12 +27,17 @@ After determining the actors, the second step in use case analysis is to determi
 - Add comments and ratings: Provide feedback and rate books
 
 # Install
-1. Install latest **Java** version to your machine
-2. Install **JavaFX** library to your machine
-3. Clone this repo to your machine
-All of the application's information is considered to be saved in *medialab* folder. To connect as the default administrator use:\
-Username:medialab\
-Password:medialab_2024
+1. Install latest **Java** version to your machine.  
+   You can download it from the official [Oracle](https://www.java.com/en/download/manual.jsp) website or use a package manager (if applicable to your OS).
+2. Install **JavaFX** library to your machine.  
+   Follow the instructions from the official [JavaFX](https://gluonhq.com/products/javafx/) website, ensuring that it’s properly configured with your Java installation
+3. Clone this repo to your local machine using the following command:\
+   fd  
+4.Application Data Location:  
+All application data is stored in the *medialab* folder. 
+5.Default Administrator Login:  
+- Username:medialab
+- Password:medialab_2024
 
 # Contributions
 If you find any bugs, have suggestions, or face issues feel free to:
